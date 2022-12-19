@@ -52,5 +52,5 @@ def create_application() -> FastAPI:
     return app
 
 
+# let's suppose there are code that has change in shared Code 2, all need to be unified.
 api = create_application()
-
